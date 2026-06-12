@@ -1,0 +1,45 @@
+# Python Virtual Environment 
+venv/
+.venv/
+env/
+ENV/
+
+# Python Caches & Compiled Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment Variables & Secrets (CRITICAL for security)
+.env
+.env.local
+.env.*
+secrets.json
+
+# Local Media / Temporary Audio Leftovers
+*.mp3
+*.mp4
+*.m4a
+*.webm
+*.wav
+
+# Vector Database Logs & Local Caches
+faiss_index/
+.huggingface/
+huggingface_cache/
+*.idx
+*.pkl
+
+# IDE / Code Editor Configurations
+.vscode/
+.idea/
+*.swp
+
+# Operating System Files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Python Distribution / Build Artifacts
+build/
+dist/
+*.egg-info/
