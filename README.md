@@ -1,6 +1,6 @@
 # YT_RAG_BOT 🤖📺
 
-A high-performance, production-ready YouTube Video Transcript Q&A Assistant built using a modular Three-Tier Architecture. This application bypasses unstable public subtitle endpoints by processing native audio streams directly to deliver rapid, accurate, and context-aware responses.
+Built with the help of Sreamlit , just paste the url of the YouTube video and chat about it with the bot.
 
 ---
 
@@ -47,6 +47,9 @@ Install the required packages directly using the environment's Python interprete
 .\venv\Scripts\python.exe -m pip install -r requirements.txt
 ```
 ### 5. Configure Environment Variables
+Click here to login and get your -> [Groq API Key](https://console.groq.com/keys) for free.\
+Click here to login and get your -> [Assembly AI API Key](https://www.assemblyai.com/dashboard/api-keys) for free .
+
 Create a .env file in the root directory and add your API credentials:
 ```.env
 GROQ_API_KEY=your_groq_api_key_here
